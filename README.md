@@ -25,3 +25,44 @@ The CSV files under the _"combined_csv"_ subfolder in the _"Abnormal"_ folder ha
 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
 
 **_Note:_** The values under the Ground Truth column are binary. A value of one implies normal behaviour at the given time instant whereas a value of 0 implies abnormal behaviour.
+
+DATASET DETAILS:
+
+Table 1: Training Files containing normal data 
+File number  Total Time Steps
+1            951
+2            495
+3            589
+4            769
+5            454
+6            857
+7            858
+8            603
+
+Total size of normal dataset:  5576 time steps of normal flight data.
+Each data has 11 attributes.
+
+Table 2: Training Files containing abnormal data
+
+File number   Total Time Steps
+1             423
+2             435
+3             259
+4             447
+Total size of abnormal dataset:  1564 time steps of abnormal flight data.
+Each data has 11 attributes.
+
+Total size of training dataset: 7140 time steps of  data 
+
+Table 3: Testing files containing both abnormal and normal data
+
+File number  Total Time Steps
+1            1008
+2            753
+3            773
+4            493
+5            591
+
+
+Total size of testing dataset:  3618 time steps of flight data.
+Each datapoint has 11 attributes + 1 ground truth value (12 attributes).
